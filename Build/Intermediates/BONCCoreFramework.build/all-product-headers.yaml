@@ -1,0 +1,78 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BONCAnnotation.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCCoreFramework/BONCCoreFramework/Core/BONCAnnotation.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCAppDelegate.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCCoreFramework/BONCCoreFramework/Core/BONCAppDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCConfig.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCCoreFramework/BONCCoreFramework/Core/BONCConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCContext.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCCoreFramework/BONCCoreFramework/Core/BONCContext.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCCore.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCCoreFramework/BONCCoreFramework/Core/BONCCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCCoreFramework-Swift.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCCoreFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCCoreFramework.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCCoreFramework/BONCCoreFramework/BONCCoreFramework.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCModuleProtocol.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCCoreFramework/BONCCoreFramework/Core/BONCModuleProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCServiceProtocol.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCCoreFramework/BONCCoreFramework/Core/BONCServiceProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCTimeProfiler.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCCoreFramework/BONCCoreFramework/Core/BONCTimeProfiler.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCWatchDog.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCCoreFramework/BONCCoreFramework/Core/BONCWatchDog.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/Build/Intermediates/BONCCoreFramework.build/Debug-iphonesimulator/BONCCoreFramework.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
