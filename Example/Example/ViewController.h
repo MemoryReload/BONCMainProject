@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewServiceProtocol.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<ViewServiceProtocol>
 
 
 @end

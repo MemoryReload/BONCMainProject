@@ -24,6 +24,14 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>moduleList.plist</key>
+		<data>
+		b2qLewUiIyOdu3VFJpc6fsFG9A0=
+		</data>
+		<key>serviceList.plist</key>
+		<data>
+		K1JydW5vbQ4KE6q01vCw7zrufOk=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -58,6 +66,28 @@
 			<key>hash2</key>
 			<data>
 			cTUkSiZovx3/rRmL6RT67wJWdPbaIbBH2kNL8M11tiE=
+			</data>
+		</dict>
+		<key>moduleList.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b2qLewUiIyOdu3VFJpc6fsFG9A0=
+			</data>
+			<key>hash2</key>
+			<data>
+			QfucSSO/0EFaPZmVbeR6zN7l290GKoN6D8t+RrQz6n8=
+			</data>
+		</dict>
+		<key>serviceList.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K1JydW5vbQ4KE6q01vCw7zrufOk=
+			</data>
+			<key>hash2</key>
+			<data>
+			szBgKv5WU7ru61k3VzCwJRZswl5rPvx9aODpzCB4fSQ=
 			</data>
 		</dict>
 	</dict>

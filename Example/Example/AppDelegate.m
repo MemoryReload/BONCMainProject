@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-
+#import "ViewServiceProtocol.h"
 
 @interface AppDelegate ()
 
@@ -29,9 +29,12 @@
     // Override point for customization after application launch.
     [super application:application didFinishLaunchingWithOptions:launchOptions];
     self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor=[UIColor greenColor];
-    self.window.rootViewController=[[ViewController alloc]init];
+    
+    id<ViewServiceProtocol> testVC=[[BONCCore shareInstance] createService:@protocol(ViewServiceProtocol)];
+    self.window.rootViewController=(UIViewController*)testVC;
     [self.window makeKeyAndVisible];
+    [testVC changeBackGroundWithColor:[UIColor redColor]];
+    
     return YES;
 }
 

@@ -1,0 +1,6 @@
+framework module BONCNetWorkFramework {
+  umbrella header "BONCNetWorkFramework.h"
+
+  export *
+  module * { export * }
+}

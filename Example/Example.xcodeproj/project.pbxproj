@@ -15,6 +15,8 @@
 		63E216611F3328EF00AE1DE1 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E216601F3328EF00AE1DE1 /* ExampleTests.m */; };
 		63E2166C1F3328EF00AE1DE1 /* ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E2166B1F3328EF00AE1DE1 /* ExampleUITests.m */; };
 		63E216881F33297800AE1DE1 /* BONCCoreFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E216871F33297800AE1DE1 /* BONCCoreFramework.framework */; };
+		63E6E5D81F340E350032007C /* moduleList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63E6E5D71F340E350032007C /* moduleList.plist */; };
+		63E6E5DA1F340F210032007C /* serviceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63E6E5D91F340F210032007C /* serviceList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		63E2166B1F3328EF00AE1DE1 /* ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleUITests.m; sourceTree = "<group>"; };
 		63E2166D1F3328EF00AE1DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E216871F33297800AE1DE1 /* BONCCoreFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BONCCoreFramework.framework; path = "../Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework"; sourceTree = "<group>"; };
+		63E6E5D71F340E350032007C /* moduleList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = moduleList.plist; sourceTree = "<group>"; };
+		63E6E5D91F340F210032007C /* serviceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = serviceList.plist; sourceTree = "<group>"; };
+		63E6E5DB1F340FD50032007C /* ViewServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +110,14 @@
 			children = (
 				63E216491F3328EF00AE1DE1 /* AppDelegate.h */,
 				63E2164A1F3328EF00AE1DE1 /* AppDelegate.m */,
+				63E6E5DB1F340FD50032007C /* ViewServiceProtocol.h */,
 				63E2164C1F3328EF00AE1DE1 /* ViewController.h */,
 				63E2164D1F3328EF00AE1DE1 /* ViewController.m */,
 				63E216521F3328EF00AE1DE1 /* Assets.xcassets */,
 				63E216541F3328EF00AE1DE1 /* LaunchScreen.storyboard */,
 				63E216571F3328EF00AE1DE1 /* Info.plist */,
+				63E6E5D71F340E350032007C /* moduleList.plist */,
+				63E6E5D91F340F210032007C /* serviceList.plist */,
 				63E216461F3328EF00AE1DE1 /* Supporting Files */,
 			);
 			path = Example;
@@ -159,6 +167,7 @@
 				63E2163F1F3328EF00AE1DE1 /* Sources */,
 				63E216401F3328EF00AE1DE1 /* Frameworks */,
 				63E216411F3328EF00AE1DE1 /* Resources */,
+				6369E7E61F38491500053975 /* Integrage Reveal Server */,
 			);
 			buildRules = (
 			);
@@ -258,8 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E6E5DA1F340F210032007C /* serviceList.plist in Resources */,
 				63E216561F3328EF00AE1DE1 /* LaunchScreen.storyboard in Resources */,
 				63E216531F3328EF00AE1DE1 /* Assets.xcassets in Resources */,
+				63E6E5D81F340E350032007C /* moduleList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +289,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6369E7E61F38491500053975 /* Integrage Reveal Server */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Integrage Reveal Server";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "REVEAL_APP_PATH=$(mdfind kMDItemCFBundleIdentifier=\"com.ittybittyapps.Reveal2\" | head -n 1)\nBUILD_SCRIPT_PATH=\"${REVEAL_APP_PATH}/Contents/SharedSupport/Scripts/reveal_server_build_phase.sh\"\nif [ \"${REVEAL_APP_PATH}\" -a -e \"${BUILD_SCRIPT_PATH}\" ]; then\n\"${BUILD_SCRIPT_PATH}\"\nelse\necho \"Reveal Server not loaded: Cannot find a compatible Reveal app.\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63E2163F1F3328EF00AE1DE1 /* Sources */ = {

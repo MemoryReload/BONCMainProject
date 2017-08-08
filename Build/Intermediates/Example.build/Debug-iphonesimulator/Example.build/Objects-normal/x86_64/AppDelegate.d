@@ -12,4 +12,5 @@ dependencies: \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCConfig.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCCore.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCCoreFramework.h \
-  /Users/heping/Desktop/BONCMainProject/Example/Example/ViewController.h
+  /Users/heping/Desktop/BONCMainProject/Example/Example/ViewController.h \
+  /Users/heping/Desktop/BONCMainProject/Example/Example/ViewServiceProtocol.h
