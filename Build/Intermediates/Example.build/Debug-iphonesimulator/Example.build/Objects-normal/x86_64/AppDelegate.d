@@ -12,5 +12,9 @@ dependencies: \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCConfig.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCCore.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCCoreFramework.h \
+  /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework/Modules/module.modulemap \
+  /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework/Headers/AFNetworkReachabilityManager.h \
+  /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework/Headers/BONCNetworkDetectModule.h \
+  /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework/Headers/BONCNetWorkFramework.h \
   /Users/heping/Desktop/BONCMainProject/Example/Example/ViewController.h \
   /Users/heping/Desktop/BONCMainProject/Example/Example/ViewServiceProtocol.h

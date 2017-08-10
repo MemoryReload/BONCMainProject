@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <BONCCoreFramework/BONCCoreFramework.h>
+#import <BONCNetWorkFramework/BONCNetWorkFramework.h>
 
 @interface AppDelegate : BONCAppDelegate
 

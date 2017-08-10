@@ -38,7 +38,7 @@
     });
     
 #ifdef DEBUG
-    [[BONCTimeProfiler sharedTimeProfiler] saveTimeProfileDataIntoFile:@"BeeHiveTimeProfiler"];
+    [[BONCTimeProfiler sharedTimeProfiler] saveTimeProfileDataIntoFile:@"BONCCoreTimeProfiler"];
 #endif
     
     return YES;

@@ -23,7 +23,7 @@
 NSArray<NSString *>* BONCReadConfiguration(char *sectionName,const struct mach_header *mhp);
 static void dyld_callback(const struct mach_header *mhp, intptr_t vmaddr_slide)
 {
-    NSArray *mods = BONCReadConfiguration(BeehiveModSectName, mhp);
+    NSArray *mods = BONCReadConfiguration(BONCcoreModSectName, mhp);
     for (NSString *modName in mods) {
         Class cls;
         if (modName) {
@@ -36,7 +36,7 @@ static void dyld_callback(const struct mach_header *mhp, intptr_t vmaddr_slide)
     }
     
     //register services
-    NSArray<NSString *> *services = BONCReadConfiguration(BeehiveServiceSectName,mhp);
+    NSArray<NSString *> *services = BONCReadConfiguration(BONCcoreServiceSectName,mhp);
     for (NSString *map in services) {
         NSData *jsonData =  [map dataUsingEncoding:NSUTF8StringEncoding];
         NSError *error = nil;

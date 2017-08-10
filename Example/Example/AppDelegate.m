@@ -20,12 +20,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [BONCContext shareInstance].application = application;
     [BONCContext shareInstance].launchOptions = launchOptions;
-    [BONCContext shareInstance].moduleConfigName = @"moduleList";//可选，默认为BeeHive.bundle/BeeHive.plist
+    [BONCContext shareInstance].moduleConfigName = @"moduleList";//可选，默认为BONCCore.bundle/BONCCore.plist
     [BONCContext shareInstance].serviceConfigName = @"serviceList";
     
     [BONCCore shareInstance].enableException = YES;
     [[BONCCore shareInstance] setContext:[BONCContext shareInstance]];
-    [[BONCTimeProfiler sharedTimeProfiler] recordEventTime:@"BeeHive::super start launch"];
+    [[BONCTimeProfiler sharedTimeProfiler] recordEventTime:@"BONCCore::super start launch"];
     // Override point for customization after application launch.
     [super application:application didFinishLaunchingWithOptions:launchOptions];
     self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
@@ -35,9 +35,15 @@
     [self.window makeKeyAndVisible];
     [testVC changeBackGroundWithColor:[UIColor redColor]];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(testNotification:) name:AFNetworkingReachabilityDidChangeNotification object:nil];
+    
     return YES;
 }
 
+-(void)testNotification:(NSNotification*)notification
+{
+    NSLog(@"networkStatus is %@",AFStringFromNetworkReachabilityStatus([[[notification userInfo] valueForKey:AFNetworkingReachabilityNotificationStatusItem] integerValue]));
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

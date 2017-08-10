@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BONCAnnotation.h</key>
 		<data>
-		sb6UsXHSsD7IDS1rRE4XGDM0KSI=
+		MgiyE/m1rpuD+nzD6FwkLQtMM4c=
 		</data>
 		<key>Headers/BONCAppDelegate.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/BONCModuleProtocol.h</key>
 		<data>
-		Kwlh14bOQ2Pgxp6Iilu1tvJaFL8=
+		2iK0RpNLzpI39jOA3BPPOgwg/6o=
 		</data>
 		<key>Headers/BONCServiceProtocol.h</key>
 		<data>
@@ -59,11 +59,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sb6UsXHSsD7IDS1rRE4XGDM0KSI=
+			MgiyE/m1rpuD+nzD6FwkLQtMM4c=
 			</data>
 			<key>hash2</key>
 			<data>
-			b7prEGAQTz8dyhcHRnUc3HzTedjSvRnSAbv3TS5YWtk=
+			Gr+OHoTOjWU1AmedvH4ByMttAjWmXCSdfH//X+HT9is=
 			</data>
 		</dict>
 		<key>Headers/BONCAppDelegate.h</key>
@@ -125,11 +125,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Kwlh14bOQ2Pgxp6Iilu1tvJaFL8=
+			2iK0RpNLzpI39jOA3BPPOgwg/6o=
 			</data>
 			<key>hash2</key>
 			<data>
-			ncctTx1jS1vMWTFcvOfokXKroGzfs3OD2/hPH++eouQ=
+			AV5QeW+9vRPnjITBqKeTxV4cSLHvkj8ZLChcJQlvgdg=
 			</data>
 		</dict>
 		<key>Headers/BONCServiceProtocol.h</key>

@@ -1,5 +1,5 @@
 /**
- * Created by BeeHive.
+ * Created by BONCCore.
  * Copyright (c) 2016, Alibaba, Inc. All rights reserved.
  *
  * This source code is licensed under the GNU GENERAL PUBLIC LICENSE.
@@ -9,19 +9,19 @@
 
 #import <Foundation/Foundation.h>
 
-#ifndef BeehiveModSectName
-#define BeehiveModSectName "BeehiveMods"
+#ifndef BONCcoreModSectName
+#define BONCcoreModSectName "BONCcoreMods"
 #endif
 
-#ifndef BeehiveServiceSectName
-#define BeehiveServiceSectName "BeehiveServices"
+#ifndef BONCcoreServiceSectName
+#define BONCcoreServiceSectName "BONCcoreServices"
 #endif
 
-#define BeeHiveDATA(sectname) __attribute((used, section("__DATA,"#sectname" ")))
-#define BeeHiveMod(name) \
-class BeeHive; char * k##name##_mod BeeHiveDATA(BeehiveMods) = ""#name"";
-#define BeeHiveService(servicename,impl) \
-class BeeHive;char * k##servicename##_service BeeHiveDATA(BeehiveServices) = "{ \""#servicename"\" : \""#impl"\"}";
+#define BONCCoreDATA(sectname) __attribute((used, section("__DATA,"#sectname" ")))
+#define BONCCoreMod(name) \
+class BONCCore; char * k##name##_mod BONCCoreDATA(BONCcoreMods) = ""#name"";
+#define BONCCoreService(servicename,impl) \
+class BONCCore;char * k##servicename##_service BONCCoreDATA(BONCcoreServices) = "{ \""#servicename"\" : \""#impl"\"}";
 
 @interface BONCAnnotation : NSObject
 

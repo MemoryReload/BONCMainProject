@@ -1,5 +1,5 @@
 /**
- * Created by BeeHive.
+ * Created by BONCCore.
  * Copyright (c) 2016, Alibaba, Inc. All rights reserved.
  *
  * This source code is licensed under the GNU GENERAL PUBLIC LICENSE.
@@ -12,7 +12,7 @@
 @class BONCContext;
 
 #define BONC_EXPORT_MODULE(isAsync) \
-+ (void)load { [BeeHive registerDynamicModule:[self class]]; } \
++ (void)load { [BONCCore registerDynamicModule:[self class]]; } \
 -(BOOL)async { return [[NSString stringWithUTF8String:#isAsync] boolValue];}
 
 

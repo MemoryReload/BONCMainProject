@@ -1,0 +1,43 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AFNetworkReachabilityManager.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/AFNetworkReachabilityManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCNetWorkFramework-Swift.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework/Headers/BONCNetWorkFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCNetWorkFramework.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCNetWorkFramework.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCNetworkDetectModule.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCNetworkDetectModule.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/Build/Intermediates/BONCNetWorkFramework.build/Debug-iphonesimulator/BONCNetWorkFramework.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

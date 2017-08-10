@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635323181F39AC1E00FCD1F4 /* BONCNetWorkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635323171F39AC1E00FCD1F4 /* BONCNetWorkFramework.framework */; };
 		63E216481F3328EF00AE1DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E216471F3328EF00AE1DE1 /* main.m */; };
 		63E2164B1F3328EF00AE1DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E2164A1F3328EF00AE1DE1 /* AppDelegate.m */; };
 		63E2164E1F3328EF00AE1DE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E2164D1F3328EF00AE1DE1 /* ViewController.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		635323171F39AC1E00FCD1F4 /* BONCNetWorkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BONCNetWorkFramework.framework; path = "../Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework"; sourceTree = "<group>"; };
 		63E216431F3328EF00AE1DE1 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E216471F3328EF00AE1DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63E216491F3328EF00AE1DE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635323181F39AC1E00FCD1F4 /* BONCNetWorkFramework.framework in Frameworks */,
 				63E216881F33297800AE1DE1 /* BONCCoreFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +155,7 @@
 		63E216861F33297800AE1DE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				635323171F39AC1E00FCD1F4 /* BONCNetWorkFramework.framework */,
 				63E216871F33297800AE1DE1 /* BONCCoreFramework.framework */,
 			);
 			name = Frameworks;
@@ -167,7 +171,6 @@
 				63E2163F1F3328EF00AE1DE1 /* Sources */,
 				63E216401F3328EF00AE1DE1 /* Frameworks */,
 				63E216411F3328EF00AE1DE1 /* Resources */,
-				6369E7E61F38491500053975 /* Integrage Reveal Server */,
 			);
 			buildRules = (
 			);
@@ -289,23 +292,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6369E7E61F38491500053975 /* Integrage Reveal Server */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Integrage Reveal Server";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "REVEAL_APP_PATH=$(mdfind kMDItemCFBundleIdentifier=\"com.ittybittyapps.Reveal2\" | head -n 1)\nBUILD_SCRIPT_PATH=\"${REVEAL_APP_PATH}/Contents/SharedSupport/Scripts/reveal_server_build_phase.sh\"\nif [ \"${REVEAL_APP_PATH}\" -a -e \"${BUILD_SCRIPT_PATH}\" ]; then\n\"${BUILD_SCRIPT_PATH}\"\nelse\necho \"Reveal Server not loaded: Cannot find a compatible Reveal app.\"\nfi";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63E2163F1F3328EF00AE1DE1 /* Sources */ = {
