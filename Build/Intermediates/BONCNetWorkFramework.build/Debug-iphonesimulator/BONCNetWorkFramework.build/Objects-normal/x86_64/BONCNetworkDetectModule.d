@@ -1,6 +1,6 @@
 dependencies: \
   /Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCNetworkDetectModule.m \
-  /Users/heping/Desktop/BONCMainProject/Build/Intermediates/BONCNetWorkFramework.build/Debug-iphonesimulator/BONCNetWorkFramework.build/module.modulemap \
+  /Users/heping/Desktop/BONCMainProject/Build/Intermediates/BONCNetworkFramework.build/Debug-iphonesimulator/BONCNetworkFramework.build/module.modulemap \
   /Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCNetworkDetectModule.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Modules/module.modulemap \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCWatchDog.h \

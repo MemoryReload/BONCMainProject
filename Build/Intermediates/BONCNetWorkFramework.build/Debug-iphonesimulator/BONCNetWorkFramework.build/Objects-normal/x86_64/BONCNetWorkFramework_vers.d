@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/heping/Desktop/BONCMainProject/Build/Intermediates/BONCNetWorkFramework.build/Debug-iphonesimulator/BONCNetWorkFramework.build/DerivedSources/BONCNetWorkFramework_vers.c
+  /Users/heping/Desktop/BONCMainProject/Build/Intermediates/BONCNetworkFramework.build/Debug-iphonesimulator/BONCNetworkFramework.build/DerivedSources/BONCNetworkFramework_vers.c

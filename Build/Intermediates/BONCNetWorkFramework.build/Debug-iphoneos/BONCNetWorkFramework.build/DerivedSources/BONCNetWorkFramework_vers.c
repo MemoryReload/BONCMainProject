@@ -1,5 +1,5 @@
- extern const unsigned char BONCNetWorkFrameworkVersionString[];
- extern const double BONCNetWorkFrameworkVersionNumber;
+ extern const unsigned char BONCNetworkFrameworkVersionString[];
+ extern const double BONCNetworkFrameworkVersionNumber;
 
- const unsigned char BONCNetWorkFrameworkVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:BONCNetWorkFramework  PROJECT:BONCNetWorkFramework-1" "\n";
- const double BONCNetWorkFrameworkVersionNumber __attribute__ ((used)) = (double)1.;
+ const unsigned char BONCNetworkFrameworkVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:BONCNetworkFramework  PROJECT:BONCNetworkFramework-1" "\n";
+ const double BONCNetworkFrameworkVersionNumber __attribute__ ((used)) = (double)1.;

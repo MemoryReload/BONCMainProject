@@ -4,49 +4,132 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/AFHTTPSessionManager.h</key>
+		<data>
+		p3y9y+DZ33iDXLM2/mkVpkPccC4=
+		</data>
 		<key>Headers/AFNetworkReachabilityManager.h</key>
 		<data>
-		mfiyAtSHCnkMSGT0kDLpFpjoYWI=
+		R/t4WKNzLfS6JczqTfl+4lPeSCA=
 		</data>
-		<key>Headers/BONCNetWorkFramework.h</key>
+		<key>Headers/AFSecurityPolicy.h</key>
 		<data>
-		ZXSnxR4PMoJ1wJYqgXQ8BwGWbec=
+		sbAejRIs5q8A3eCqlJdxh9ldd0s=
+		</data>
+		<key>Headers/AFURLRequestSerialization.h</key>
+		<data>
+		yUuOFpvN5gtri8UhbNkMUi5k+Jw=
+		</data>
+		<key>Headers/AFURLResponseSerialization.h</key>
+		<data>
+		SMvkbb9EMS5yZjuXA8QQswY/3CM=
+		</data>
+		<key>Headers/BONCHTTPRequestService.h</key>
+		<data>
+		zSSeaQfZEpSTsaAKvr9UD93ElvA=
+		</data>
+		<key>Headers/BONCHTTPRequestServiceProtocol.h</key>
+		<data>
+		6/kt1vicDQSkPkghFwjso69oA00=
 		</data>
 		<key>Headers/BONCNetworkDetectModule.h</key>
 		<data>
 		EbiAlaVYd/u23brnxpFSYI41SO0=
 		</data>
+		<key>Headers/BONCNetworkFileModel.h</key>
+		<data>
+		iWfJv+qWuKW9u89xGRQ3AA8aMiU=
+		</data>
+		<key>Headers/BONCNetworkFramework.h</key>
+		<data>
+		ipQqFhgfgov6VLJPhCMAs1ekIoM=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		Mtb5uTQEwX5D92JZIONjdlBCCgk=
+		iReI7nuw7jZXTDU1sxYc5tBYb2s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		6RXfMJ57GjCK752d6s4bDP0F/h0=
+		hfSnrjE4bmPfrHW4e0BQ1rYHV10=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/AFHTTPSessionManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p3y9y+DZ33iDXLM2/mkVpkPccC4=
+			</data>
+			<key>hash2</key>
+			<data>
+			BqwnAj446Qw/r7PcV4ibwL2mt4PrlFn7q7x+P1EukMA=
+			</data>
+		</dict>
 		<key>Headers/AFNetworkReachabilityManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mfiyAtSHCnkMSGT0kDLpFpjoYWI=
+			R/t4WKNzLfS6JczqTfl+4lPeSCA=
 			</data>
 			<key>hash2</key>
 			<data>
-			mIxseTvfzrapyBJUvUEsbRMqSDpbW0zHiAWspAGG9ac=
+			J1AT1NAK4MovKULfkwSZBr4x9J1SkaJzWNQ5SB0Eby8=
 			</data>
 		</dict>
-		<key>Headers/BONCNetWorkFramework.h</key>
+		<key>Headers/AFSecurityPolicy.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZXSnxR4PMoJ1wJYqgXQ8BwGWbec=
+			sbAejRIs5q8A3eCqlJdxh9ldd0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			oNqOKJ5OBWHWxcF8dBjX95pyOekXZhjkmJAdOJZ8uD0=
+			CtR6U4APL0biRZsiCZ6QZ+K1XWqVal9uWDeiAdS3sso=
+			</data>
+		</dict>
+		<key>Headers/AFURLRequestSerialization.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yUuOFpvN5gtri8UhbNkMUi5k+Jw=
+			</data>
+			<key>hash2</key>
+			<data>
+			082CkQ2NOpKoySPbvGCDhUdkPiWyyxt2XFjbpO8hbYI=
+			</data>
+		</dict>
+		<key>Headers/AFURLResponseSerialization.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SMvkbb9EMS5yZjuXA8QQswY/3CM=
+			</data>
+			<key>hash2</key>
+			<data>
+			v8dmXtk3iOEDKdRom9p7PcqmS9mc5j1ZnsZ6ZG+Iw4Q=
+			</data>
+		</dict>
+		<key>Headers/BONCHTTPRequestService.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zSSeaQfZEpSTsaAKvr9UD93ElvA=
+			</data>
+			<key>hash2</key>
+			<data>
+			/7fCG2iD6PjaMyIHf/2lb/MA0IggTlN2opUrw8gdOAA=
+			</data>
+		</dict>
+		<key>Headers/BONCHTTPRequestServiceProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6/kt1vicDQSkPkghFwjso69oA00=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q2wd6za/4yBcwUqTNvRUnoG8QEHfT8TBr/Dut3K1H/c=
 			</data>
 		</dict>
 		<key>Headers/BONCNetworkDetectModule.h</key>
@@ -60,15 +143,37 @@
 			ZMDxu7f4gUkW4iItgYAB+jZWRwJOnjD+h1Cj4u3CcqU=
 			</data>
 		</dict>
+		<key>Headers/BONCNetworkFileModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iWfJv+qWuKW9u89xGRQ3AA8aMiU=
+			</data>
+			<key>hash2</key>
+			<data>
+			GflsoicHg/EhYm4zs0eVZM+yo/8Ij7ulaBxhncwwZoY=
+			</data>
+		</dict>
+		<key>Headers/BONCNetworkFramework.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ipQqFhgfgov6VLJPhCMAs1ekIoM=
+			</data>
+			<key>hash2</key>
+			<data>
+			7wb/joj6KwxKoCASAp2vBH9fqYFsDX9kPvUsW/Blqok=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6RXfMJ57GjCK752d6s4bDP0F/h0=
+			hfSnrjE4bmPfrHW4e0BQ1rYHV10=
 			</data>
 			<key>hash2</key>
 			<data>
-			75lCGDaBqDk5NXiphiuP74Mfxlw5YKWmoIdqvXjvD1s=
+			EaY0Auvq5usVTas/yT9ugE/ZoFJYjV4TimrtYawsYUk=
 			</data>
 		</dict>
 	</dict>

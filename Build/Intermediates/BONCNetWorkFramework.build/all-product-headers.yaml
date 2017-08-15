@@ -4,8 +4,13 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework/Headers",
+      'name': "/Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers",
       'contents': [
+        {
+          'type': 'file',
+          'name': "AFHTTPSessionManager.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/AFHTTPSessionManager.h"
+        },
         {
           'type': 'file',
           'name': "AFNetworkReachabilityManager.h",
@@ -13,29 +18,59 @@
         },
         {
           'type': 'file',
-          'name': "BONCNetWorkFramework-Swift.h",
-          'external-contents': "/Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework/Headers/BONCNetWorkFramework-Swift.h"
+          'name': "AFSecurityPolicy.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/AFSecurityPolicy.h"
         },
         {
           'type': 'file',
-          'name': "BONCNetWorkFramework.h",
-          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCNetWorkFramework.h"
+          'name': "AFURLRequestSerialization.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/AFURLRequestSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLResponseSerialization.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/AFURLResponseSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCHTTPRequestService.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCHTTPRequestService.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCHTTPRequestServiceProtocol.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCHTTPRequestServiceProtocol.h"
         },
         {
           'type': 'file',
           'name': "BONCNetworkDetectModule.h",
           'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCNetworkDetectModule.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCNetworkFileModel.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCNetworkFileModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCNetworkFramework-Swift.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/BONCNetworkFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "BONCNetworkFramework.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCNetworkFramework.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework/Modules",
+      'name': "/Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/heping/Desktop/BONCMainProject/Build/Intermediates/BONCNetWorkFramework.build/Debug-iphonesimulator/BONCNetWorkFramework.build/module.modulemap"
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/Build/Intermediates/BONCNetworkFramework.build/Debug-iphonesimulator/BONCNetworkFramework.build/module.modulemap"
         }
       ]
     }
