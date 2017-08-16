@@ -24,7 +24,7 @@
 		635322E71F39A5A900FCD1F4 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 635322DA1F39A5A900FCD1F4 /* AFURLRequestSerialization.m */; };
 		635322E81F39A5A900FCD1F4 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 635322DB1F39A5A900FCD1F4 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		635322E91F39A5A900FCD1F4 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 635322DC1F39A5A900FCD1F4 /* AFURLResponseSerialization.m */; };
-		635322EA1F39A5A900FCD1F4 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 635322DD1F39A5A900FCD1F4 /* AFURLSessionManager.h */; };
+		635322EA1F39A5A900FCD1F4 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 635322DD1F39A5A900FCD1F4 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		635322EB1F39A5A900FCD1F4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 635322DE1F39A5A900FCD1F4 /* AFURLSessionManager.m */; };
 		635323011F39A5B200FCD1F4 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 635322ED1F39A5B200FCD1F4 /* AFAutoPurgingImageCache.h */; };
 		635323021F39A5B200FCD1F4 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 635322EE1F39A5B200FCD1F4 /* AFAutoPurgingImageCache.m */; };
@@ -237,13 +237,13 @@
 				635322DF1F39A5A900FCD1F4 /* AFHTTPSessionManager.h in Headers */,
 				635322E41F39A5A900FCD1F4 /* AFSecurityPolicy.h in Headers */,
 				635322E81F39A5A900FCD1F4 /* AFURLResponseSerialization.h in Headers */,
+				635322EA1F39A5A900FCD1F4 /* AFURLSessionManager.h in Headers */,
 				6353230B1F39A5B200FCD1F4 /* UIImage+AFNetworking.h in Headers */,
 				635323031F39A5B200FCD1F4 /* AFImageDownloader.h in Headers */,
 				635323051F39A5B200FCD1F4 /* AFNetworkActivityIndicatorManager.h in Headers */,
 				6353230C1F39A5B200FCD1F4 /* UIImageView+AFNetworking.h in Headers */,
 				635323071F39A5B200FCD1F4 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
 				6353230E1F39A5B200FCD1F4 /* UIKit+AFNetworking.h in Headers */,
-				635322EA1F39A5A900FCD1F4 /* AFURLSessionManager.h in Headers */,
 				635323131F39A5B200FCD1F4 /* UIWebView+AFNetworking.h in Headers */,
 				6353230F1F39A5B200FCD1F4 /* UIProgressView+AFNetworking.h in Headers */,
 				635323091F39A5B200FCD1F4 /* UIButton+AFNetworking.h in Headers */,

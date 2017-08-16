@@ -33,6 +33,11 @@
         },
         {
           'type': 'file',
+          'name': "AFURLSessionManager.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/AFURLSessionManager.h"
+        },
+        {
+          'type': 'file',
           'name': "BONCHTTPRequestService.h",
           'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCHTTPRequestService.h"
         },

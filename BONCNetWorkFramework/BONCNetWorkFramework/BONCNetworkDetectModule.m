@@ -20,7 +20,7 @@ BONC_EXPORT_MODULE(YES)
 - (void)modSetUp:(BONCContext *)context
 {
     if (!_manager) {
-        _manager=[AFNetworkReachabilityManager manager];
+        _manager=[AFNetworkReachabilityManager sharedManager];
     }
 }
 

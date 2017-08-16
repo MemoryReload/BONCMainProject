@@ -24,13 +24,17 @@
 		<data>
 		SMvkbb9EMS5yZjuXA8QQswY/3CM=
 		</data>
+		<key>Headers/AFURLSessionManager.h</key>
+		<data>
+		IW9uzKavrAM1lNAIUZgRZw7MKjg=
+		</data>
 		<key>Headers/BONCHTTPRequestService.h</key>
 		<data>
 		zSSeaQfZEpSTsaAKvr9UD93ElvA=
 		</data>
 		<key>Headers/BONCHTTPRequestServiceProtocol.h</key>
 		<data>
-		6/kt1vicDQSkPkghFwjso69oA00=
+		Rgr46fT4xR/uNpxDb2JEVlNpzVM=
 		</data>
 		<key>Headers/BONCNetworkDetectModule.h</key>
 		<data>
@@ -110,6 +114,17 @@
 			v8dmXtk3iOEDKdRom9p7PcqmS9mc5j1ZnsZ6ZG+Iw4Q=
 			</data>
 		</dict>
+		<key>Headers/AFURLSessionManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IW9uzKavrAM1lNAIUZgRZw7MKjg=
+			</data>
+			<key>hash2</key>
+			<data>
+			PV/Z4UlMxeT19Tn8D6kRJ+UV5V2oXW0yTEGqvWOUC0I=
+			</data>
+		</dict>
 		<key>Headers/BONCHTTPRequestService.h</key>
 		<dict>
 			<key>hash</key>
@@ -125,11 +140,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6/kt1vicDQSkPkghFwjso69oA00=
+			Rgr46fT4xR/uNpxDb2JEVlNpzVM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q2wd6za/4yBcwUqTNvRUnoG8QEHfT8TBr/Dut3K1H/c=
+			14vI6mLfZ1zAx6ZYI8o8iJNMqypTyRjGrf/4oimw1uE=
 			</data>
 		</dict>
 		<key>Headers/BONCNetworkDetectModule.h</key>
