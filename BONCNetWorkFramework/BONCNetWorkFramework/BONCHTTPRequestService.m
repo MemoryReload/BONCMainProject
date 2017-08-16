@@ -30,10 +30,6 @@
                                                 failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure
 {
     AFHTTPSessionManager* manager=[[self class] sharedManager];
-    if (manager.reachabilityManager.networkReachabilityStatus==AFNetworkReachabilityStatusNotReachable) {
-        NSError* err=[[NSError alloc]initWithDomain:NSCocoaErrorDomain code:AFNetworkReachabilityStatusNotReachable userInfo:@{NSLocalizedDescriptionKey:@"Network not reachable."}];
-        failure(nil,err);
-    }
     [manager GET:urlStr parameters:params progress:downloadProgress success:success failure:failure];
 }
 
@@ -42,10 +38,6 @@
                       failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure
 {
     AFHTTPSessionManager* manager=[[self class] sharedManager];
-    if (manager.reachabilityManager.networkReachabilityStatus==AFNetworkReachabilityStatusNotReachable) {
-        NSError* err=[[NSError alloc]initWithDomain:NSCocoaErrorDomain code:AFNetworkReachabilityStatusNotReachable userInfo:@{NSLocalizedDescriptionKey:@"Network not reachable."}];
-        failure(nil,err);
-    }
     //无文件上传的post请求
     if (!fileArray||fileArray.count==0) {
         [manager POST:urlStr parameters:params progress:uploadProgress success:success failure:failure];
@@ -72,8 +64,12 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         manager=[AFHTTPSessionManager manager];
+        NSSet* contectSet=[NSSet setWithObjects:@"text/html", nil];
+        NSArray* serializers=@[[AFJSONResponseSerializer serializer],[AFXMLParserResponseSerializer serializer],[AFPropertyListResponseSerializer serializer],[AFImageResponseSerializer serializer]];
+        AFCompoundResponseSerializer* compoundResponseSerializer=[AFCompoundResponseSerializer compoundSerializerWithResponseSerializers:serializers];
+        compoundResponseSerializer.acceptableContentTypes=contectSet;
+        manager.responseSerializer=compoundResponseSerializer;
     });
-    
     return manager;
 }
 @end

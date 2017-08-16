@@ -22,6 +22,12 @@
 -(void)changeBackGroundWithColor:(UIColor*)color
 {
     self.view.backgroundColor=color;
+    id<BONCHTTPRequestServiceProtocol> httpService=[[BONCCore shareInstance]createService:@protocol(BONCHTTPRequestServiceProtocol)];
+    [httpService sendGETReqeustWithURL:@"https://qixin.bonc.com.cn/qixin/oauth/authorize.do?response_type=code&appId=client&secrityId=client" parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nullable task, id  _Nullable responseObject) {
+        NSLog(@">>>>responseObject: %@",responseObject);
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error) {
+        NSLog(@">>>>error: %@",error);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

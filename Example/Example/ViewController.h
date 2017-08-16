@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ViewServiceProtocol.h"
+#import <BONCNetworkFramework/BONCNetworkFramework.h>
 
 @interface ViewController : UIViewController<ViewServiceProtocol>
 

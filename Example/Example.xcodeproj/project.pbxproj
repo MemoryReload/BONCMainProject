@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		635323181F39AC1E00FCD1F4 /* BONCNetWorkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635323171F39AC1E00FCD1F4 /* BONCNetWorkFramework.framework */; };
+		63314F881F443FD30083399B /* BONCNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63314F871F443FD30083399B /* BONCNetworkFramework.framework */; };
+		63314F891F443FE20083399B /* BONCCoreFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E216871F33297800AE1DE1 /* BONCCoreFramework.framework */; };
 		63E216481F3328EF00AE1DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E216471F3328EF00AE1DE1 /* main.m */; };
 		63E2164B1F3328EF00AE1DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E2164A1F3328EF00AE1DE1 /* AppDelegate.m */; };
 		63E2164E1F3328EF00AE1DE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E2164D1F3328EF00AE1DE1 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		63E216561F3328EF00AE1DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E216541F3328EF00AE1DE1 /* LaunchScreen.storyboard */; };
 		63E216611F3328EF00AE1DE1 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E216601F3328EF00AE1DE1 /* ExampleTests.m */; };
 		63E2166C1F3328EF00AE1DE1 /* ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E2166B1F3328EF00AE1DE1 /* ExampleUITests.m */; };
-		63E216881F33297800AE1DE1 /* BONCCoreFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E216871F33297800AE1DE1 /* BONCCoreFramework.framework */; };
 		63E6E5D81F340E350032007C /* moduleList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63E6E5D71F340E350032007C /* moduleList.plist */; };
 		63E6E5DA1F340F210032007C /* serviceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63E6E5D91F340F210032007C /* serviceList.plist */; };
 /* End PBXBuildFile section */
@@ -38,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63314F851F443F940083399B /* BONCNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BONCNetworkFramework.framework; path = "../BONCNetWorkFramework/build/Debug-iphoneos/BONCNetworkFramework.framework"; sourceTree = "<group>"; };
+		63314F871F443FD30083399B /* BONCNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BONCNetworkFramework.framework; path = "../BONCNetWorkFramework/build/Debug-iphoneos/BONCNetworkFramework.framework"; sourceTree = "<group>"; };
 		635323171F39AC1E00FCD1F4 /* BONCNetWorkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BONCNetWorkFramework.framework; path = "../Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework"; sourceTree = "<group>"; };
 		63E216431F3328EF00AE1DE1 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E216471F3328EF00AE1DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,8 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				635323181F39AC1E00FCD1F4 /* BONCNetWorkFramework.framework in Frameworks */,
-				63E216881F33297800AE1DE1 /* BONCCoreFramework.framework in Frameworks */,
+				63314F891F443FE20083399B /* BONCCoreFramework.framework in Frameworks */,
+				63314F881F443FD30083399B /* BONCNetworkFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +157,8 @@
 		63E216861F33297800AE1DE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63314F871F443FD30083399B /* BONCNetworkFramework.framework */,
+				63314F851F443F940083399B /* BONCNetworkFramework.framework */,
 				635323171F39AC1E00FCD1F4 /* BONCNetWorkFramework.framework */,
 				63E216871F33297800AE1DE1 /* BONCCoreFramework.framework */,
 			);
