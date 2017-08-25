@@ -7,6 +7,7 @@
  */
 
 #import <Foundation/Foundation.h>
+
 @class BONCContext;
 
 @interface BONCCore : NSObject

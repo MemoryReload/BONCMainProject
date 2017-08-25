@@ -7,6 +7,7 @@
 //
 
 #import "BONCNetworkDetectModule.h"
+#import "AFNetworkReachabilityManager.h"
 
 @interface BONCNetworkDetectModule ()
 {

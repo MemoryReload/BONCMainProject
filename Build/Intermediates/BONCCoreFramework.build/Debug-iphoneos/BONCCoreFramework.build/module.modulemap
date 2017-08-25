@@ -1,6 +1,0 @@
-framework module BONCCoreFramework {
-  umbrella header "BONCCoreFramework.h"
-
-  export *
-  module * { export * }
-}

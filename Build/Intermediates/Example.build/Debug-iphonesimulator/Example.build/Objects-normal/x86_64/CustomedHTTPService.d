@@ -1,7 +1,6 @@
 dependencies: \
-  /Users/heping/Desktop/BONCMainProject/Example/Example/ViewController.m \
-  /Users/heping/Desktop/BONCMainProject/Example/Example/ViewController.h \
-  /Users/heping/Desktop/BONCMainProject/Example/Example/ViewServiceProtocol.h \
+  /Users/heping/Desktop/BONCMainProject/Example/Example/CustomedHTTPService.m \
+  /Users/heping/Desktop/BONCMainProject/Example/Example/CustomedHTTPService.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Modules/module.modulemap \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Modules/module.modulemap \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCWatchDog.h \

@@ -13,6 +13,11 @@
         },
         {
           'type': 'file',
+          'name': "AFNetworkActivityIndicatorManager.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/AFNetworkActivityIndicatorManager.h"
+        },
+        {
+          'type': 'file',
           'name': "AFNetworkReachabilityManager.h",
           'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/AFNetworkReachabilityManager.h"
         },
@@ -65,6 +70,21 @@
           'type': 'file',
           'name': "BONCNetworkFramework.h",
           'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCNetworkFramework.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIProgressView+AFNetworking.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/UIProgressView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIRefreshControl+AFNetworking.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/UIRefreshControl+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIWebView+AFNetworking.h",
+          'external-contents': "/Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/UIWebView+AFNetworking.h"
         }
       ]
     },

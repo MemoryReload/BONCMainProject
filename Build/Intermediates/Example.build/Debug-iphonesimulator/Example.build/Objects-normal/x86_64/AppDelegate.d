@@ -13,9 +13,11 @@ dependencies: \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCCore.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCCoreFramework.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Modules/module.modulemap \
+  /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/UIProgressView+AFNetworking.h \
+  /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/UIRefreshControl+AFNetworking.h \
+  /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/UIWebView+AFNetworking.h \
+  /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/AFNetworkActivityIndicatorManager.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/BONCHTTPRequestService.h \
-  /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/BONCHTTPRequestServiceProtocol.h \
-  /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/BONCNetworkFileModel.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/BONCNetworkDetectModule.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/AFHTTPSessionManager.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/AFSecurityPolicy.h \
@@ -23,6 +25,8 @@ dependencies: \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/AFURLResponseSerialization.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/AFURLSessionManager.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/AFNetworkReachabilityManager.h \
+  /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/BONCHTTPRequestServiceProtocol.h \
+  /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/BONCNetworkFileModel.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCNetworkFramework.framework/Headers/BONCNetworkFramework.h \
   /Users/heping/Desktop/BONCMainProject/Example/Example/ViewController.h \
   /Users/heping/Desktop/BONCMainProject/Example/Example/ViewServiceProtocol.h

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63313DB01F50180B00096E15 /* CustomedHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 63313DAF1F50180B00096E15 /* CustomedHTTPService.m */; };
 		63314F881F443FD30083399B /* BONCNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63314F871F443FD30083399B /* BONCNetworkFramework.framework */; };
 		63314F891F443FE20083399B /* BONCCoreFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E216871F33297800AE1DE1 /* BONCCoreFramework.framework */; };
 		63E216481F3328EF00AE1DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E216471F3328EF00AE1DE1 /* main.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63313DAE1F50180B00096E15 /* CustomedHTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomedHTTPService.h; sourceTree = "<group>"; };
+		63313DAF1F50180B00096E15 /* CustomedHTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomedHTTPService.m; sourceTree = "<group>"; };
 		63314F851F443F940083399B /* BONCNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BONCNetworkFramework.framework; path = "../BONCNetWorkFramework/build/Debug-iphoneos/BONCNetworkFramework.framework"; sourceTree = "<group>"; };
 		63314F871F443FD30083399B /* BONCNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BONCNetworkFramework.framework; path = "../BONCNetWorkFramework/build/Debug-iphoneos/BONCNetworkFramework.framework"; sourceTree = "<group>"; };
 		635323171F39AC1E00FCD1F4 /* BONCNetWorkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BONCNetWorkFramework.framework; path = "../Build/Products/Debug-iphonesimulator/BONCNetWorkFramework.framework"; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				63E2164A1F3328EF00AE1DE1 /* AppDelegate.m */,
 				63E6E5DB1F340FD50032007C /* ViewServiceProtocol.h */,
 				63E2164C1F3328EF00AE1DE1 /* ViewController.h */,
+				63313DAE1F50180B00096E15 /* CustomedHTTPService.h */,
+				63313DAF1F50180B00096E15 /* CustomedHTTPService.m */,
 				63E2164D1F3328EF00AE1DE1 /* ViewController.m */,
 				63E216521F3328EF00AE1DE1 /* Assets.xcassets */,
 				63E216541F3328EF00AE1DE1 /* LaunchScreen.storyboard */,
@@ -303,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63E2164E1F3328EF00AE1DE1 /* ViewController.m in Sources */,
+				63313DB01F50180B00096E15 /* CustomedHTTPService.m in Sources */,
 				63E2164B1F3328EF00AE1DE1 /* AppDelegate.m in Sources */,
 				63E216481F3328EF00AE1DE1 /* main.m in Sources */,
 			);

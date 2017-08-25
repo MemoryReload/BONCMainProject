@@ -2,7 +2,6 @@ dependencies: \
   /Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCHTTPRequestService.m \
   /Users/heping/Desktop/BONCMainProject/Build/Intermediates/BONCNetworkFramework.build/Debug-iphonesimulator/BONCNetworkFramework.build/module.modulemap \
   /Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCHTTPRequestService.h \
-  /Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCHTTPRequestServiceProtocol.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Modules/module.modulemap \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCWatchDog.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCTimeProfiler.h \
@@ -14,6 +13,7 @@ dependencies: \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCConfig.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCCore.h \
   /Users/heping/Desktop/BONCMainProject/Build/Products/Debug-iphonesimulator/BONCCoreFramework.framework/Headers/BONCCoreFramework.h \
+  /Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCHTTPRequestServiceProtocol.h \
   /Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/BONCNetworkFileModel.h \
   /Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/AFHTTPSessionManager.h \
   /Users/heping/Desktop/BONCMainProject/BONCNetWorkFramework/BONCNetWorkFramework/AFNetworking/AFURLSessionManager.h \

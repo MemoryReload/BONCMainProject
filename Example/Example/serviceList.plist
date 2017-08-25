@@ -3,6 +3,12 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>impl</key>
+		<string>CustomedHTTPService</string>
+		<key>service</key>
+		<string>BONCHTTPRequestServiceProtocol</string>
+	</dict>
+	<dict>
 		<key>service</key>
 		<string>ViewServiceProtocol</string>
 		<key>impl</key>

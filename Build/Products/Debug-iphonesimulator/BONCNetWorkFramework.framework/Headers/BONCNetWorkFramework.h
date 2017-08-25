@@ -8,13 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for BONCNetWorkFramework.
-FOUNDATION_EXPORT double BONCNetWorkFrameworkVersionNumber;
+//! Project version number for BONCNetworkFramework.
+FOUNDATION_EXPORT double BONCNetworkFrameworkVersionNumber;
 
-//! Project version string for BONCNetWorkFramework.
-FOUNDATION_EXPORT const unsigned char BONCNetWorkFrameworkVersionString[];
+//! Project version string for BONCNetworkFramework.
+FOUNDATION_EXPORT const unsigned char BONCNetworkFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <BONCNetWorkFramework/PublicHeader.h>
+#import <BONCNetworkFramework/BONCNetworkFileModel.h>
+#import <BONCNetWorkFramework/BONCHTTPRequestServiceProtocol.h>
 #import <BONCNetworkFramework/AFNetworkReachabilityManager.h>
 #import <BONCNetworkFramework/AFURLSessionManager.h>
 #import <BONCNetworkFramework/AFHTTPSessionManager.h>
@@ -22,6 +24,8 @@ FOUNDATION_EXPORT const unsigned char BONCNetWorkFrameworkVersionString[];
 #import <BONCNetworkFramework/AFURLResponseSerialization.h>
 #import <BONCNetworkFramework/AFSecurityPolicy.h>
 #import <BONCNetworkFramework/BONCNetworkDetectModule.h>
-#import <BONCNetworkFramework/BONCNetworkFileModel.h>
-#import <BONCNetWorkFramework/BONCHTTPRequestServiceProtocol.h>
 #import <BONCNetWorkFramework/BONCHTTPRequestService.h>
+#import <BONCNetWorkFramework/AFNetworkActivityIndicatorManager.h>
+#import <BONCNetWorkFramework/UIWebView+AFNetworking.h>
+#import <BONCNetWorkFramework/UIRefreshControl+AFNetworking.h>
+#import <BONCNetWorkFramework/UIProgressView+AFNetworking.h>
